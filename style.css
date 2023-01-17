@@ -1,0 +1,19 @@
+.picture-one {
+    position: relative;
+    left: 100px;
+    top: 2px;
+}
+
+h1 {
+    background-position-x: 200px;
+}
+.card {
+    background-color: rgb(185, 184, 184);
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.card-body {
+    background-color: rgb(180, 180, 180);
+}
