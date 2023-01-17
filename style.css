@@ -2,23 +2,50 @@
     position: relative;
     left: 100px;
     top: 20px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 body {
     height: 100%;
-    background: linear-gradient(to right, navy, white);
+    background: linear-gradient(to right, navy, black);
 }
 
 h1 {
     background-position-x: 200px;
 }
 .card {
-    background-color: rgb(185, 184, 184);
     position: relative;
-    left: 150px;
-    top: 50px;
+    left: 1100px;
+    top: -400px;
 }
 
 .card-body {
-    background-color: rgb(180, 180, 180);
+    background-color: white;
+}
+
+.card-title {
+    font-family: 'Barlow', sans-serif;
+}
+
+.card-text {
+    font-family: 'Barlow', sans-serif;
+}
+
+.btn.btn-primary {
+    background-color: navy;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container-fluid {
+    font-family: 'Barlow', sans-serif;
+    text-align: right;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 1300px;
+}
+
+.nav-item {
+    position: relative;
+    left: 1300px;
 }
