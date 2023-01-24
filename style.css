@@ -68,11 +68,20 @@ h1 {
     font-size: 2em;
 }
 
-.bio {
+.button1 {
     position: relative;
     left: 225px;
     top: 200px;
     border-radius: 12px;
     font-family: 'Barlow', sans-serif;
     font-size: 2em;
+}
+
+.bio {
+    position: relative;
+    left: 20px;
+    top: -700px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    color: white;
 }
