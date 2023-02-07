@@ -85,3 +85,20 @@ h1 {
     font-size: 2em;
     color: white;
 }
+
+.contacts {
+    position: relative;
+    left: 20px;
+    top: -600px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 2em;
+}
+
+.linkedin {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border: 5px;
+    border-radius: 10px;
+    background-
+}
