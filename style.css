@@ -115,7 +115,7 @@ h1 {
 .grid-container-three {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
     padding: 10px;
 }
 
@@ -141,12 +141,34 @@ h1 {
     color: white;
 }
 
-.pacmen {
+.eyes-project {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.eyes-repo {
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 4;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.pacmen {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
     font-family: 'Barlow', sans-serif;
     font-size: 3em;
     color: white;
@@ -156,10 +178,32 @@ h1 {
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
     font-family: 'Barlow', sans-serif;
     font-size: 1.5em;
+    color: white;
+}
+
+.pacmen-project {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.pacmen-repo {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
     color: white;
 }
 
@@ -167,8 +211,8 @@ h1 {
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 2;
-    grid-row-start: 7;
-    grid-row-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 9;
     font-family: 'Barlow', sans-serif;
     font-size: 3em;
     color: white;
@@ -178,9 +222,31 @@ h1 {
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 2;
-    grid-row-start: 8;
-    grid-row-end: 8;
+    grid-row-start: 10;
+    grid-row-end: 10;
     font-family: 'Barlow', sans-serif;
     font-size: 1.5em;
+    color: white;
+}
+
+.bus-project {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 11;
+    grid-row-end: 11;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.bus-repo {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    font-family: 'Barlow', sans-serif;
+    font-size: 2em;
     color: white;
 }
