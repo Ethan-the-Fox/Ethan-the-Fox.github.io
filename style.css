@@ -1,6 +1,8 @@
 .picture-one {
     grid-column-start: 1;
     grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
     border: 5px solid white;
     border-radius: 4%;
 }
@@ -60,9 +62,13 @@ h1 {
 .introduction {
     grid-column-start: 3;
     grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
     font-family: 'Barlow', sans-serif;
     color: white;
     font-size: 2em;
+    height: 200px;
+    width: 600px;
 }
 
 .button1 {
@@ -102,6 +108,7 @@ h1 {
 .grid-container-one {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
     padding: 10px;
 }
 
@@ -249,4 +256,11 @@ h1 {
     font-family: 'Barlow', sans-serif;
     font-size: 2em;
     color: white;
+}
+
+.video {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    top: -400px;
 }
